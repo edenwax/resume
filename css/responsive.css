@@ -1,0 +1,152 @@
+/* make adapt */
+@media only screen and (max-width: 1650px) {
+	#left-bar {
+		width: 20%;
+	}
+		#left-bar ul {
+			display: block;
+			position: static;
+			-ms-transform: none;
+			transform: none;
+			margin: 0;
+			padding: 0;
+		}
+			#left-bar li:first-child {
+				border-radius: 0;
+				margin: 0 0 5% 0;
+			}
+			#left-bar li div {
+				margin: 0 5%;
+			}
+	#right-content {
+		padding: 0 0 0 5%;
+	}
+	#experience {
+			margin: 0 0 30%;
+		}
+}
+
+@media only screen and (max-width: 1440px) {
+	#left-bar {
+		width: 20%;
+	}
+		#left-bar ul {
+			display: block;
+			position: static;
+			-ms-transform: none;
+			transform: none;
+			margin: 0;
+			padding: 0;
+		}
+			#left-bar li:first-child {
+				border-radius: 0;
+				margin: 0 0 5% 0;
+			}
+			#left-bar li {
+				padding: 0 0 0 5%;
+			}
+			#left-bar li a {
+				font-size: 1em;
+			}
+			#left-bar li div {
+				display: none;
+			}
+	#right-content {
+		padding: 0 0 0 5%;
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	#left-bar {
+		display: none;
+	}
+	#right-content {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+		#right-content section {
+			height: auto;
+			margin: 40% 0 0 0;
+		}
+		.work {
+			width: 100%;
+		}
+}
+
+@media only screen and (max-width: 900px) {
+	#right-content {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+		#right-content section {
+			height: auto;
+			width: 100%;
+			margin: 40% 0 0 0;
+			padding: 1em;
+		}
+			#about-content {
+				position: static;
+				top: none;
+				-ms-transform: none;
+				transform: none;
+			}
+				#about-content h2 {
+					padding: 15px 0;
+				}
+				#about ul {
+					display: block;
+				}
+			#social-icons {
+				padding: 0;
+			}
+		#right-content header {
+			width: 100%;
+		}
+			#right-content h1 {
+				font-size: 2em;
+			}
+			#right-content h2 {
+				font-size: 1em;
+			}
+				#right-content p {
+					font-size: 0.8em;
+				}
+		.work {
+			width: 100%;
+		}
+			.work header {
+				display: block;
+			}
+				.work .title h2 {
+					text-transform: capitalize;
+					font-weight: 400;
+				}
+				.date-right {
+					margin: 10px 0 0 0;
+					width: auto;
+				}
+				.work .role-left h3 {
+					font-size: 0.8em;
+					text-transform: uppercase;
+					font-weight: 700;
+					margin-top: 0;
+					margin: 0 0 10px 0;
+					padding: 0;
+				}
+			.skills-icons {
+				width: 100%;
+				flex-wrap: wrap;
+			}
+			.skills-icons div {
+				flex: 0 0 20%;
+			}
+	#infrastructure li {
+		height: auto;
+		margin: 0 0 1em 0;
+	}
+		#infrastructure span {
+			display: block;
+		}
+}

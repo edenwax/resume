@@ -1,0 +1,240 @@
+/* main.css for colinberry.ca/resume */
+body, html {
+	font-family: "DM Sans", sans-serif;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	background: #343a40;
+}
+ul {
+	list-style-type: none;
+}
+.line {
+	height: 5px;
+	width: 75px;
+	background: #007bff;
+	margin: 25px 0;
+}
+#page-wrap {
+	width: 100%;
+}
+	#left-bar {
+		width: 15%;
+		background: #525960;
+		position: fixed;
+		height: 100vh;
+	}
+		#left-bar ul {
+			margin: 0;
+			position: absolute;
+			top: 50%;
+			-ms-transform: translateY(-50%);
+			transform: translateY(-50%);
+		}
+			#left-bar li {
+				width: 100%;
+				height: 40px;
+			}
+			#left-bar li div {
+				width: 30px;
+				display: inline-block;
+				text-align: center;
+				margin: 0 15px 0 0;
+				color: #191b1d;
+			}
+		#left-bar a {
+			font-weight: 700;
+			font-size: 1.2em;
+			color: #d2d2d2;
+			transition: all .1s ease-in-out;	
+		}
+			#left-bar a:hover {
+				color: #fff;
+				text-decoration: none;
+			}
+			#left-bar span {
+				color: #fff;
+				font-weight: 700;
+			}
+			#left-bar li:first-child {
+				height: auto;
+				background: #007bff;
+				border-radius: 8px;
+				padding: 0.8em 1em;
+				margin: 0 0 25px 0;
+			}
+				#left-bar li:first-child a {
+					color: #b7daff;
+					font-size: 1em;
+					font-weight: 700;
+				}
+				#left-bar li:first-child a:hover {
+					color: #fff;
+				}
+	#right-content {
+		background: #343a40;
+		width: 85%;
+		margin: 0 0 0 15%;
+	}
+	#about {
+		height: 100vh;
+		background: #343a40;
+	}
+	#about-content {
+		max-width: 800px;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+		#about header {
+			display: flex;
+			justify-content: space-between;
+		}
+		#about h1 {
+			font-size: 4em;
+			font-weight: 700;
+			letter-spacing: -4px;
+			color: #fff;
+			margin: 0;
+			padding: 0;
+		}
+		#about ul {
+			width: 100%;
+			margin: 0 0 50px 0;
+			padding: 0;
+			display: flex;
+			justify-content: space-between;
+			background: #007bff;
+			border-radius: 10px;
+		}
+			#about li {
+				padding: 1em 1.5em;
+			}
+				#about li span {
+					color: #b7daff;
+					font-weight: 700;
+				}
+				#about li a, #about li span {
+					margin: 0 0 0 16px;
+				}
+				#about li a {
+					font-weight: 700;
+					color: #fff;
+				}
+		#about h2 {
+			font-size: 1.2em;
+			color: #dfdfdf;
+			margin: 15px 0 25px 0;
+		}
+		#social-icons {
+			font-size: 20px;
+			text-align: right;
+			width: 40%;
+			padding: 36px 0 0 0;
+		}
+			#social-icons a {
+				color: #343a40;
+				padding: 14.5px 20px;
+				background: #d2d2d2;
+				border-radius: 100px;
+				transition: all .1s ease-in-out;
+			}
+				#social-icons a:first-child {
+					padding: 14.5px 18px;
+					margin: 0 10px 0 0;
+				}
+				#social-icons a:hover {
+					background: #fff;
+				}
+	#about, #experience, #education, #skills, #interests {
+		height: 100vh;
+		padding: 2em 4em;
+		color: #fff;
+	}
+		#about h1, #experience h1, #education h1, #skills h1, #interests h1 {
+			color: #fff;
+			font-weight: 700;
+			letter-spacing: -2px;
+			margin: 0;
+			padding: 0;
+		}
+		.work {
+			width: 70%;
+			margin: 40px 0 0 0;
+			padding: 0 0 0 25px;
+			border-left: 5px solid #007bff;
+		}
+		#experience .intern {
+			margin: 50px 0 0 0;
+		}
+			.work header {
+				display: flex;
+				justify-content: space-between;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+			}
+				.work h2 {
+					font-weight: 700;
+					font-size: 1.2em;
+					text-transform: uppercase;
+					margin: 0;
+					padding: 0;
+				}
+				.work p {
+					color: #dfdfdf;
+					font-size: 0.9em;
+					font-weight: 400;
+				}
+				.date-right p {
+					color: #fff;
+					font-size: 0.8em;
+					font-weight: 700;
+					background: #007bff;
+					padding: 0.5em 1em;
+					border-radius: 5px;
+				}
+			.work h3 {
+				color: #dfdfdf;
+				font-size: 1em;	
+				margin: -20px 0 25px 0;
+				padding: 0;
+			}
+	#skills h2 {
+		color: #dfdfdf;
+		font-size: 1.2em;
+		margin: 15px 0 0 0;
+	}
+	.skills-icons {
+		font-size: 3em;
+		max-width: 700px;
+		color: #dfdfdf;
+		display: flex;
+		justify-content: space-between;
+		margin: 0 0 50px 0;
+	}
+		.skills-icons div:hover {
+			color: #fff;
+		}
+		#infrastructure {
+			margin: 0 0 50px 0;
+		}
+		#infrastructure li div, #practical li div {
+			display: inline-block;
+			margin: 0 15px 0 0;
+		}
+		#infrastructure ul, #practical ul {
+			margin: 0 0 0 15px;
+			padding: 0;
+		}
+			#infrastructure li, #practical li {
+				font-weight: 700;
+				height: 30px;
+			}
+				#infrastructure .grey {
+					color: #dfdfdf;
+					font-weight: 400;
+					font-size: 0.8em;
+				}
